@@ -7,6 +7,7 @@ import { Link } from 'react-scroll';
 import AOS from "aos";
 import 'aos/dist/aos.css';
 import ReactTypingEffect from "react-typing-effect";
+import Image from "next/image";
 
 const HeroPage = () => {
     useEffect(() => {
@@ -19,7 +20,7 @@ const HeroPage = () => {
                 <div className="hero-content xl:mt-[100px] 2xl:mt-[10px] mb-[50px] md:mb-[100px] lg:max-w-[55rem] xl:max-w-[71rem] 2xl:max-w-[80rem] max-w-[90rem] flex-col lg:flex-row-reverse 2xl:flex-row-reverse">
                     <div className="avatar justify-center">
                         <div className="rounded-full relative p-[2rem] xl:left-[116px] lg:left-[92px] sm:w-[68%]  2xl:left-0 lg:w-[75%] xl:w-[68%] md:w-[60%] lg:p-[20px] 2xl:p-[20px] w-[78%] 2xl:w-[60%] 2xl:ml-[223px]" data-aos="fade-down" data-aos-duration="1000">
-                            <img src="assets/img/me.jpeg" />
+                            <Image src="assets/img/me.jpeg" />
                         </div>
                     </div>
                     <div>

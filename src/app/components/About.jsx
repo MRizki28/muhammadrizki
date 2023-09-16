@@ -4,6 +4,7 @@ import AOS from "aos";
 import 'aos/dist/aos.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHand } from "@fortawesome/free-solid-svg-icons";
+import Image from "next/image";
 const AboutBase = () => {
     useEffect(() => {
         AOS.init();
@@ -14,7 +15,7 @@ const AboutBase = () => {
         <div id="about" className="about grid min-h-[43vh] bg-[#050810]">
             <div className="hero min-h-screen bg-base-200">
                 <div className="hero-content container mx-auto sm:px-9 xl:px-28 md:px-10 lg:px-20 lg:gap-x-7 xl:gap-x-14 2xl:gap-0 2xl:px-4 flex-col lg:flex-row">
-                    <img src="assets/img/me.jpeg" className="max-w-sm w-[50%] md:w-[45%] lg:w-full rounded-lg shadow-2xl" data-aos="flip-left" data-aos-duration="1000" />
+                    <Image src="assets/img/me.jpeg" className="max-w-sm w-[50%] md:w-[45%] lg:w-full rounded-lg shadow-2xl" data-aos="flip-left" data-aos-duration="1000" />
                     <div className="ml-0 2xl:ml-[180px] text-center sm:text-center md:text-center lg:text-left">
                         <div className="mb-3">
                             <h1 className="text-[25px] sm:text-[32px] lg:text-[32px] xl:text-[32px]  font-poppins-reguler font-bold " data-aos="fade-down-right" data-aos-duration="1000">Hello   <FontAwesomeIcon icon={faHand} className="fa-shake fa-sm pb-[13px] text-[#E2C799]" />  <span className="text-[#9400FF] ">I'm Muhammad Rizki</span></h1>
