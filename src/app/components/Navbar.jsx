@@ -8,7 +8,7 @@ import {
     IconButton,
 } from "@material-tailwind/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 
 
@@ -61,7 +61,7 @@ const NavBar = () => {
                 className="p-1 font-normal text-[16px] font-poppins-reguler"
             >
                 <a href="#" className="flex items-center">
-                  Experience
+                    Experience
                 </a>
             </Typography>
         </ul>
@@ -78,9 +78,18 @@ const NavBar = () => {
                     Muhammad Rizki
                 </Typography>
                 <div className="hidden lg:block">{navList}</div>
-                <Button variant="gradient" size="sm" className="hidden lg:inline-block">
-                    <span><FontAwesomeIcon icon="fa-brands fa-github"></FontAwesomeIcon></span>
-                </Button>
+                <Typography
+                        as="li"
+                        variant="small"
+                        color="blue-gray"
+                        className="p-1 font-normal text-[16px] font-poppins-reguler hidden lg:inline-block"
+                    >
+                        <a href="#" className="flex items-center">
+                        <FontAwesomeIcon icon={faLinkedin}> </FontAwesomeIcon>
+                           </a>
+                       
+                       
+                    </Typography>
                 <IconButton
                     variant="text"
                     className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
@@ -122,12 +131,20 @@ const NavBar = () => {
             <Collapse open={openNav}>
                 <div className="container mx-auto">
                     {navList}
-                    <Button variant="gradient" size="sm" fullWidth className="mb-2">
-                        <span>
-                          
-                        </span>
-                    </Button>
-                      <FontAwesomeIcon icon={faLinkedin} />Github
+
+                    <Typography
+                        as="li"
+                        variant="small"
+                        color="blue-gray"
+                        className="p-1 font-normal text-[16px] font-poppins-reguler"
+                    >
+                       
+                       <a href="#" className="flex items-center">
+                        <FontAwesomeIcon icon={faLinkedin}> </FontAwesomeIcon>
+                           </a>
+                    </Typography>
+
+
                 </div>
             </Collapse>
         </Navbar>
