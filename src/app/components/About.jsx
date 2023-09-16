@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import 'aos/dist/aos.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHand, faHandPointUp } from "@fortawesome/free-solid-svg-icons";
+import { faHand } from "@fortawesome/free-solid-svg-icons";
 const AboutBase = () => {
     useEffect(() => {
         AOS.init();
