@@ -30,3 +30,7 @@ body {
   font-family: poppins-reguler;
   src: url("/public/assets/fonts/Poppins/Poppins-Regular.ttf") format("opentype");
 }
+
+.text-sd {
+  text-shadow: 3px 3px 0 #F8DE22, -1px -1px 0 #F8DE22, 1px -1px 0 #F8DE22, -1px 1px 0 #F8DE22, 1px 1px 0 #F8DE22;
+}
