@@ -27,13 +27,13 @@ const HeroPage = () => {
                         <div className="flex items-center justify-center md:justify-center lg:justify-start">
                             <div className=" flex items-center mr-3 " data-aos="fade-up" data-aos-duration="1000">
                                 <FontAwesomeIcon icon={faHandPointUp} className="fa-shake fa-xl pb-[13px] text-[#E2C799]" />
-                                <h1 className="text-[22px] font-bold font-poppins-reguler ml-3 text-[#9400FF] text-sd">
+                                <h1 className="text-[22px] font-bold font-poppins-reguler ml-3 text-sd text-[#9400FF] text-sd">
                                     Hi There{' '}
                                     <ReactTypingEffect speed={100} text={['I\'m Muhammad Rizki', 'Welcome to my website']} />
                                 </h1>
                             </div>
                         </div>
-                        <h1 className="font-poppins-reguler md:text-center lg:text-left md:text-[37px] text-center text-[23px] lg:text-[37px] " data-aos="fade-up" data-aos-duration="1000">A <span className="text-[#9400FF] text-sd">Fullstack Developer</span> I help startups <span className="text-[#9400FF] text-sd">launch</span> and <span>grow</span> their products</h1>
+                        <h1 className="font-poppins-reguler md:text-center lg:text-left md:text-[37px] text-center text-[23px] lg:text-[37px] " data-aos="fade-up" data-aos-duration="1000">A <span className=" text-sd text-[#9400FF] text-sd">Fullstack Developer</span> I help startups <span className="text-sd text-[#9400FF] text-sd">launch</span> and <span>grow</span> their products</h1>
                         <div className="2xl:text-left text-center lg:text-left mt-4 font-poppins-reguler">
                             <button className="btn btn-primary inline-block">Download CV <FontAwesomeIcon icon={faFileDownload}></FontAwesomeIcon></button>
                         </div>
