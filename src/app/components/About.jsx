@@ -13,7 +13,7 @@ const AboutBase = () => {
 
     return (
         <div id="about" className="about grid min-h-[43vh] ">
-            <div className="hero min-h-screen bg-[#050810]">
+            <div className="hero min-h-screen bg-[#050810] mt-[123px]">
                 <div className="hero-content container mx-auto sm:px-9 xl:px-28 md:px-10 lg:px-20 lg:gap-x-7 xl:gap-x-14 2xl:gap-0 2xl:px-4 flex-col lg:flex-row">
                     <Image src="/assets/img/me.jpeg" alt="" width={500} height={300} className="max-w-sm w-[50%] md:w-[45%] lg:w-full rounded-lg shadow-2xl" data-aos="flip-left" data-aos-duration="1000" />
                     <div className="ml-0 2xl:ml-[180px] text-center sm:text-center md:text-center lg:text-left">
