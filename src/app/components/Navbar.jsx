@@ -9,6 +9,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import "@fortawesome/fontawesome-svg-core/styles.css";
+import { Link as ScrollLink } from "react-scroll";
 
 
 const NavBar = () => {
@@ -29,9 +30,9 @@ const NavBar = () => {
                 color="blue-gray"
                 className="p-1 font-normal text-[16px] font-poppins-reguler"
             >
-                <a href="#" className="flex items-center">
+                 <ScrollLink to="about"   style={{ cursor: "pointer" }} smooth={true} duration={500} offset={-100} className="flex items-center">
                     About
-                </a>
+                </ScrollLink>
             </Typography>
             <Typography
                 as="li"
@@ -39,9 +40,9 @@ const NavBar = () => {
                 color="blue-gray"
                 className="p-1 font-normal text-[16px] font-poppins-reguler"
             >
-                <a href="#" className="flex items-center">
-                    Tools
-                </a>
+                <ScrollLink to="tols"   style={{ cursor: "pointer" }} smooth={true} duration={500} offset={-100} className="flex items-center">
+                    Tols
+                </ScrollLink>
             </Typography>
             <Typography
                 as="li"
@@ -49,9 +50,9 @@ const NavBar = () => {
                 color="blue-gray"
                 className="p-1 font-normal text-[16px] font-poppins-reguler"
             >
-                <a href="#" className="flex items-center">
-                    Educations
-                </a>
+               <ScrollLink to="education"   style={{ cursor: "pointer" }} smooth={true} duration={500} offset={-100} className="flex items-center">
+                    Education
+                </ScrollLink>
             </Typography>
             <Typography
                 as="li"
@@ -59,9 +60,9 @@ const NavBar = () => {
                 color="blue-gray"
                 className="p-1 font-normal text-[16px] font-poppins-reguler"
             >
-                <a href="#" className="flex items-center">
+                <ScrollLink to="experience"   style={{ cursor: "pointer" }} smooth={true} duration={500} offset={-100} className="flex items-center">
                     Experience
-                </a>
+                </ScrollLink>
             </Typography>
         </ul>
     );
@@ -78,17 +79,17 @@ const NavBar = () => {
                 </Typography>
                 <div className="hidden  lg:block">{navList}</div>
                 <Typography
-                        as="li"
-                        variant="small"
-                        color="blue-gray"
-                        className="p-1 font-normal text-white text-[16px] font-poppins-reguler hidden lg:inline-block"
-                    >
-                        <a href="#" className="flex items-center">
+                    as="li"
+                    variant="small"
+                    color="blue-gray"
+                    className="p-1 font-normal text-white text-[16px] font-poppins-reguler hidden lg:inline-block"
+                >
+                    <a href="#" className="flex items-center">
                         <FontAwesomeIcon icon={faLinkedin}> </FontAwesomeIcon>
-                           </a>
-                       
-                       
-                    </Typography>
+                    </a>
+
+
+                </Typography>
                 <IconButton
                     variant="text"
                     className="ml-auto t h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
@@ -137,10 +138,10 @@ const NavBar = () => {
                         color="blue-gray"
                         className="p-1 text-white font-normal text-[16px] font-poppins-reguler"
                     >
-                       
-                       <a href="#" className="flex items-center">
-                        <FontAwesomeIcon icon={faLinkedin}> </FontAwesomeIcon>
-                           </a>
+
+                        <a href="#" className="flex items-center">
+                            <FontAwesomeIcon icon={faLinkedin}> </FontAwesomeIcon>
+                        </a>
                     </Typography>
 
 

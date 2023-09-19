@@ -11,7 +11,7 @@ const TechBase = () => {
         AOS.refresh();
     }, []);
     return (
-        <div id="tech" className="tech grid min-h-[43vh]  bg-[#050810]">
+        <div id="tols" className="tech grid min-h-[43vh]  bg-[#050810]">
             <h2 className="text-center mt-[47px] mb-16 text-[2.5rem] text-sd font-poppins-reguler text-white">Tooling</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 max-w-[90%] container mx-auto md:max-w-[90%] lg:max-w-[77%] xl:max-w-[89%] 2xl:max-w-[77%]">
                 <div className="grid grid-cols-2 mb-[63px] md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3 gap-6 mt-10 container mx-auto items-center lg:mb-[94px] border-b-4 md:border-b-0 md:border-r-4">

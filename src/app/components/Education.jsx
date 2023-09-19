@@ -3,7 +3,7 @@ import ReactTypingEffect from "react-typing-effect"
 
 const Education = () => {
     return (
-        <div id="tech" className=" grid min-h-[43vh]  bg-[#050810]">
+        <div id="education" className=" grid min-h-[43vh]  bg-[#050810]">
             <h2 className="text-center  mb-16 mt-36 text-[2.5rem] text-sd font-poppins-reguler text-white">Education & Experience</h2>
             <div className="container mx-auto px-4 py-5 grid grid-cols-1 lg:grid-cols-2 ">
                 <div className="text-center mb-[100px] my-18 md:my-28 md:ml-[79px] xl:ml-6 xl:my-28" data-aos="flip-left" data-aos-duration="1000" >
