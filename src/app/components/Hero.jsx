@@ -24,7 +24,7 @@ const HeroPage = () => {
         <>
             <div className="hero min-h-screen bg-[#030204] md:mb-[100px] ">
                 <div className="hero-content xl:mt-[100px] 2xl:mt-[10px] mb-[50px] md:mb-[100px] lg:max-w-[55rem] xl:max-w-[71rem] 2xl:max-w-[95rem] max-w-[90rem] flex-col lg:flex-row-reverse 2xl:flex-row-reverse">
-                    <div className="max-w-[90rem] text-[40px]">
+                    <div className="max-w-[90rem] text-[40px] font-poppins-reguler font-bold">
                         <ReactTypingEffect speed={100}  text={['Hello '+ name +' Welcome to my portofolio , enjoy to your experience']} />
                     </div>
                 </div>
