@@ -6,15 +6,6 @@ import Particles from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
 
 const WelcomeBase = () => {
-
-  const particlesInit = async (main) => {
-    console.log(main);
-
-    // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
-    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-    // starting from v2 you can add only the features you need reducing the bundle size
-    await loadFull(main);
-  };
   
   const [name, setName] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -41,7 +32,14 @@ const WelcomeBase = () => {
 
   const isNameValid = name.trim() !== '';
 
+  const particlesInit = async (main) => {
+    console.log(main);
 
+    // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
+    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
+    // starting from v2 you can add only the features you need reducing the bundle size
+    await loadFull(main);
+  };
 
   return (
     <div className='relative min-h-screen'>
@@ -185,9 +183,9 @@ const WelcomeBase = () => {
             <div>
               <button
                 onClick={handleRedirect}
-                className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-700"
+                className=" btn btn-outline btn-primary text-white"
               >
-                Let's Go
+                Start
               </button>
             </div>
           )}
