@@ -30,7 +30,7 @@ const NavBar = () => {
                 color="blue-gray"
                 className="p-1 font-normal text-[16px] font-poppins-reguler"
             >
-                 <ScrollLink to="about"   style={{ cursor: "pointer" }} smooth={true} duration={500} offset={-100} className="flex items-center">
+                 <ScrollLink to="about"  style={{ cursor: "pointer" }} smooth={true} duration={500} offset={-100} className="flex items-center">
                     About
                 </ScrollLink>
             </Typography>
@@ -61,7 +61,7 @@ const NavBar = () => {
                 className="p-1 font-normal text-[16px] font-poppins-reguler"
             >
                 <ScrollLink to="experience"   style={{ cursor: "pointer" }} smooth={true} duration={500} offset={-100} className="flex items-center">
-                    Experience
+                    Project
                 </ScrollLink>
             </Typography>
         </ul>
